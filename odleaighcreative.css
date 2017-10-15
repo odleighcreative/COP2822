@@ -1,0 +1,105 @@
+html {
+	background-color: black;
+}
+
+article, aside, footer, hgroup, header, 
+section, nav {
+   display: block;
+}
+
+/* Set the default page element styles */
+
+body * {
+   background: white;
+   font-family: times, arial, sans-serif;
+   font-size: 100%;
+   font-weight: inherit;
+   line-height: 1.2em;
+   list-style: none;
+   /*margin top, right, bottom, left*/
+   margin: 0px auto;
+   /*padding top, right, bottom, left*/
+   padding: 0px 10px 0px 0px;
+   text-decoration: none;
+   vertical-align: baseline;
+   color: rgb(77,77,77);
+   width: 90%;
+}
+
+body {
+	margin: 0px;
+	box-shadow: rgb(255,0,0) 10px 10px 25px ;
+}
+
+header {
+   background-image: url('headerbckgnd.jpg');
+   width: 90%;
+   height: 75px;
+   color: white;
+   font-style: bold;
+   font-size: 3em;
+   text-indent: 10px;
+   text-shadow: 3px 3px rgba(255,255,255,.5);
+   min-width: 500px;
+   max-width: 900px;
+}
+
+section {
+   min-width: 500px;
+   max-width: 900px;
+   background-color: white;
+   min-height: 650px;
+}
+
+nav {
+   float: left;
+   width: 200px;
+   height: 100%;
+}
+
+nav ul {
+   list-style-type: none; 
+   margin: 0px 0px 0px 0px; 
+   font-size: 1em;
+}
+
+nav a {
+   text-decoration: none; 
+   color: gray;
+   padding-left: 10px;
+   margin-bottom: 1px;
+}
+
+nav a.module {
+	display: block;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	line-height: 25px;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+
+nav a:hover {
+   text-decoration: overline underline;
+}
+
+nav li.module {
+   margin: 0px 0px 0px 0px;
+}
+
+h1 {
+	min-width: 300px;
+	font-size: 1.5em;
+	color: red;
+	font-weight: bold;
+	padding-top: 10px; 
+}
+
+section p {
+	min-width: 300 px;
+	padding: 5px 5px 5px 5px;
+	text-align: justify;
+	line-height: 1.2em;
+}
+
