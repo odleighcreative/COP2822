@@ -28,7 +28,6 @@ body * {
 
 body {
 	margin: 0px;
-	box-shadow: rgb(255,0,0) 10px 10px 25px ;
 }
 
 header {
@@ -49,6 +48,7 @@ section {
    max-width: 900px;
    background-color: white;
    min-height: 650px;
+   	box-shadow: rgb(255,0,0) 10px 10px 25px ;
 }
 
 nav {
