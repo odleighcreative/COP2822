@@ -96,6 +96,12 @@ h1 {
 	padding-top: 10px; 
 }
 
+h2 {
+	font-size: 1.3em;
+	color: red;
+	font-weight: bold;
+}
+
 section p {
 	min-width: 300 px;
 	padding: 5px 5px 5px 5px;
