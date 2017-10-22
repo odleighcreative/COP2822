@@ -97,7 +97,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.3em;
+	font-size: 1em;
 	color: red;
 	font-weight: bold;
 }
@@ -109,3 +109,18 @@ section p {
 	line-height: 1.2em;
 }
 
+.description ul {
+	list-style-type: disc;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.case {
+	padding-top: 10px;
+	font-size: 1.2em;
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+}
